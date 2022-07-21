@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: HiGuys
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/hiGuys?rewriteBatchedStatements=true
+    username: root
+    password: 311696;
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+server:
+  port: 8080
+general-bean:
+  need-pass:
+    - limit
